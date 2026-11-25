@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
     inputs:
       send:
-        description: 'Надіслати поточний графік'
+        description: 'Send current schedule'
         type: boolean
         default: false
 
